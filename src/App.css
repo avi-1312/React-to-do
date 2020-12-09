@@ -23,16 +23,34 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Wrapper{
+  background-color: rgb(252, 104, 104);
+  padding: 10px;
+  border-radius: 10%;
+  box-shadow: 0 1px 4px 0 rgba(0,0, 0, 0.5);
+  width: 200px;
+  text-align:  center;
+}
+.Input-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Input-wrapper input{
+  border-radius: 4%;
+  border: 0;
+  background-color: #ede7fe;
+  width: 150px;
+  padding: 6px;
+  height: 20px;
+  margin: 10px;
+}
+
+.Input-wrapper button{
+  height: 30px;
+  width: 30px;
+  border-radius:50%;
+  padding: 0;
 }
